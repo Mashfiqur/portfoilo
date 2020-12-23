@@ -1,5 +1,25 @@
 .nav{
- margin-top: 15px;
+ margin-top: 0px;
 
 }
-
+.lnk{
+    text-decoration:none;
+}
+header {
+    background: linear-gradient(to right, #302E24, #28313E);
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .1);
+    margin-bottom: 70px;
+  }
+  
+  .App p, .App h1 {
+    margin: 30px auto;
+    width: 800px;
+  }
+  .reading-progress-bar {
+    position: sticky;
+    height: 5px;
+    top: 0;
+    background-color: #ff0000;
+  }
